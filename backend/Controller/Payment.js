@@ -4,7 +4,7 @@ const { PAYMENT } = require("../Modal/Payment");
 const { PRODUCT } = require("../Modal/Product");
 
 const stripe = require("stripe")(
-  "sk_test_51QY3TxAuVinPkX1gWbFZJHUT76QNdEP1ZILrzu5EN4UaCa6Yk4oISVmudF2ao9f6GeISaPcRGYqeCylHKfADiCJH00bzrujrvF"
+  "*********************************************************"
 );
 
 // *************************** create payment &  payment method

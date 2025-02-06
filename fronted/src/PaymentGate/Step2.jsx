@@ -4,7 +4,7 @@ import { loadStripe } from "@stripe/stripe-js";
 
 function Step2(items) {
   const stripePromise = loadStripe(
-    "pk_test_51QY3TxAuVinPkX1gisyzRbtbKYL7adKfYcyTPp2hGpTn8LIzu89jNVVMvKkEAPK7DlX3HTGrOqQDrlmoytMVuszs00kNrSmz2F"
+    "*******************************************************************"
   );
   const options = {
     mode: "payment",

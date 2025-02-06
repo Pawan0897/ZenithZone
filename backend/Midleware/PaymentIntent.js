@@ -1,7 +1,7 @@
 const PaymentIntent = async (req, res) => {
   const { totalprice, customerid, paymentmethodId } = req.body;
   const stripe = require("stripe")(
-    "sk_test_51QY3TxAuVinPkX1gWbFZJHUT76QNdEP1ZILrzu5EN4UaCa6Yk4oISVmudF2ao9f6GeISaPcRGYqeCylHKfADiCJH00bzrujrvF"
+    "*****************************************************************"
   );
   const paymentIntent = await stripe.paymentIntents.create({
     amount: totalprice,

@@ -3,7 +3,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
 const stripe = require("stripe")(
-  "sk_test_51QY3TxAuVinPkX1gWbFZJHUT76QNdEP1ZILrzu5EN4UaCa6Yk4oISVmudF2ao9f6GeISaPcRGYqeCylHKfADiCJH00bzrujrvF"
+  "**************************************************"
 );
 const { sentSMS, sendRegisterSMS } = require("../CommonFunction/SendSMS");
 const { sentMail, sendRegisterMail } = require("../CommonFunction/SendMail");
